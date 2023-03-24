@@ -2,13 +2,13 @@ import Head from "next/head"
 // import Image from "next/image"
 import { Inter } from "next/font/google"
 import styles from "@/styles/Home.module.css"
-import {BsFillMoonStarsFill} from "react-icons/bs";
+import {BsFillMoonStarsFill} from "react-icons/bs"
 
-import Image from "next/image";
-import deved from "../../public/dev-ed-wave.png";
-import design from "../../public/design.png";
-import code from "../../public/code.png";
-import consulting from "../../public/consulting.png";
+import Image from "next/image"
+import deved from "../../public/dev-ed-wave.png"
+import design from "../../public/design.png"
+import code from "../../public/code.png"
+import consulting from "../../public/consulting.png"
 
 import web1 from "../../public/web1.png"
 import web2 from "../../public/web2.png"
@@ -17,9 +17,9 @@ import web4 from "../../public/web4.png"
 import web5 from "../../public/web5.png"
 import web6 from "../../public/web6.png"
 
-import {useState} from "react";
+import {useState} from "react"
 
-import {AiFillLinkedin, AiFillInstagram , AiFillGithub, AiFillMail} from "react-icons/ai";
+import {AiFillLinkedin, AiFillInstagram , AiFillGithub, AiFillMail} from "react-icons/ai"
 
 export default function Home() {
   const [darkmode, setDarkMode] = useState(false);
